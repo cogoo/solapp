@@ -1,0 +1,12 @@
+[programs.localnet]
+solapp = "5zF6qD5LSUACatrjpqK1ij2C4U1srbEzCiBprQ86arbL"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/cogoo/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
