@@ -9,3 +9,7 @@ test:
 .PHONY: deploy
 deploy:
 	@anchor deploy
+
+.PHONY: copy-idl
+copy-idl:
+	@node app/copyIdl.js
